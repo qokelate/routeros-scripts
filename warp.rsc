@@ -14,7 +14,7 @@
 /ip firewall mangle add action=mark-connection chain=from-lan connection-mark=no-mark dst-address-list=google new-connection-mark=google-conn passthrough=yes disabled=yes
 /ip firewall mangle add action=mark-connection chain=from-lan connection-mark=no-mark dst-address-list=china new-connection-mark=china-conn passthrough=yes disabled=yes
 /ip firewall mangle add action=mark-connection chain=from-lan connection-mark=no-mark new-connection-mark=other-conn passthrough=yes disabled=yes
-/ip firewall mangle add action=mark-routing chain=from-lan connection-mark=other-conn disabled=yes new-routing-mark=warp passthrough=no disabled=yes
+/ip firewall mangle add action=mark-routing chain=from-lan connection-mark=other-conn new-routing-mark=warp passthrough=no disabled=yes
 
 
 
