@@ -1,5 +1,5 @@
 
-/interface wireguard add listen-port=13231 mtu=1280 name=warp private-key="aOsWow1jcvFcHC8uc+QyVtsQNPec4fW405FVtWrHwW4="
+/interface wireguard add listen-port=13231 mtu=1280 name=warp private-key="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 /ip address add address=172.16.0.2 interface=warp network=172.16.0.2
 /interface wireguard peers add allowed-address=0.0.0.0/0 endpoint-address=162.159.195.84 endpoint-port=4500 interface=warp public-key="bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
 
