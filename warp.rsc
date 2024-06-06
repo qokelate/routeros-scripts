@@ -16,7 +16,7 @@
 /ip firewall mangle add action=mark-connection chain=from-lan connection-mark=no-mark new-connection-mark=other-conn passthrough=yes disabled=yes
 /ip firewall mangle add action=mark-routing chain=from-lan connection-mark=other-conn new-routing-mark=warp passthrough=no disabled=yes
 
-/ip firewall mangle add place-before=0 action=change-mss chain=forward new-mss=clamp-to-pmtu out-interface=warp passthrough=yes protocol=tcp tcp-flags=syn
+/ip firewall mangle add place-before=0 action=change-mss chain=forward new-mss=clamp-to-pmtu passthrough=yes protocol=tcp tcp-flags=syn out-interface=warp
 
 
 /system script add dont-require-permissions=no name=update-warp owner=admin policy=read,write,policy,test source="/log/info \"[WARP] fetching warp list ....\"\r\
