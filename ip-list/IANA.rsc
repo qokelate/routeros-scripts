@@ -6,3 +6,5 @@
 /ip firewall address-list add address=100.64.0.0/10 list=IANA disabled=yes
 /ip firewall address-list add address=169.254.0.0/16 list=IANA disabled=yes
 /ip firewall address-list add address=240.0.0.0/4 list=IANA disabled=yes
+
+/ip firewall address-list add address=223.0.0.0/3 list=IANA disabled=yes
