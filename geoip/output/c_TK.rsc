@@ -1,3 +1,3 @@
 
-/ip/firewall/address-list/add list= address=27.96.24.0-27.96.31.255
-# updated 2024年 7月 8日 星期一 12时34分11秒 CST
+/ip/firewall/address-list/add list=geoip-c_TK address=27.96.24.0-27.96.31.255
+# updated 2024-07-08 14:19:40 CST

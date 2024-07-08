@@ -28,9 +28,7 @@ while read tmp1; do
     suffix="${suffix:6}"
     [ -z "$suffix" ] && continue
 
-    [ -f "output/$suffix.txt" ] && continue
-
-    # http://ips.chacuo.net/view/s_GD
+    [ -f "output/$suffix.txt" ] || \
     curl --connect-timeout 5 -4 -o "cache/$suffix.txt" -vkL "$tmp1" \
     -A 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:125.0) Gecko/20100101 Firefox/125.0' || continue
     sleep 1
@@ -39,9 +37,11 @@ while read tmp1; do
     txturl=`grep -oE "[^$q]+/down/t_txt[^$q]+" "cache/$suffix.txt"`
     [ -z "$txturl" ] && continue
 
+    [ -f "output/$suffix.txt" ] || \
     curl --connect-timeout 5 -4 -o "output/$suffix.txt" -vkL "$txturl" \
     -A 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:125.0) Gecko/20100101 Firefox/125.0' || continue
     grep -osq back "output/$suffix.txt" && continue
+    grep -osq html "output/$suffix.txt" && continue
     sleep 1
 
     echo >"output/$suffix.rsc"
@@ -50,7 +50,7 @@ while read tmp1; do
         e=`echo "$tmp2" | awk '{printf $2}'`
         [ -z "$s" ] && continue
         [ -z "$e" ] && continue
-        echo "/ip/firewall/address-list/add list=$geo address=$s-$e" >>"output/$suffix.rsc"
+        echo "/ip/firewall/address-list/add list=geoip-$suffix address=$s-$e" >>"output/$suffix.rsc"
     done < "output/$suffix.txt"
     echo "# updated $(date '+%Y-%m-%d %H:%M:%S %Z')" >>"output/$suffix.rsc"
 done < list.txt
