@@ -1,0 +1,35 @@
+
+/ip/firewall/address-list/add list= address=154.80.0.0-154.95.255.255
+/ip/firewall/address-list/add list= address=45.192.0.0-45.207.255.255
+/ip/firewall/address-list/add list= address=196.240.0.0-196.245.255.255
+/ip/firewall/address-list/add list= address=196.16.0.0-196.19.255.255
+/ip/firewall/address-list/add list= address=196.56.0.0-196.59.255.255
+/ip/firewall/address-list/add list= address=196.196.0.0-196.199.255.255
+/ip/firewall/address-list/add list= address=168.80.0.0-168.81.255.255
+/ip/firewall/address-list/add list= address=196.48.0.0-196.48.255.255
+/ip/firewall/address-list/add list= address=165.231.0.0-165.231.255.255
+/ip/firewall/address-list/add list= address=196.247.0.0-196.247.255.255
+/ip/firewall/address-list/add list= address=137.63.0.0-137.63.127.255
+/ip/firewall/address-list/add list= address=197.158.192.0-197.158.255.255
+/ip/firewall/address-list/add list= address=154.70.160.0-154.70.191.255
+/ip/firewall/address-list/add list= address=197.157.96.0-197.157.127.255
+/ip/firewall/address-list/add list= address=41.86.32.0-41.86.63.255
+/ip/firewall/address-list/add list= address=41.220.96.0-41.220.111.255
+/ip/firewall/address-list/add list= address=41.203.240.0-41.203.255.255
+/ip/firewall/address-list/add list= address=197.234.0.0-197.234.15.255
+/ip/firewall/address-list/add list= address=196.4.36.0-196.4.45.255
+/ip/firewall/address-list/add list= address=196.1.120.0-196.1.127.255
+/ip/firewall/address-list/add list= address=197.231.208.0-197.231.211.255
+/ip/firewall/address-list/add list= address=196.46.148.0-196.46.151.255
+/ip/firewall/address-list/add list= address=41.191.120.0-41.191.123.255
+/ip/firewall/address-list/add list= address=41.222.204.0-41.222.207.255
+/ip/firewall/address-list/add list= address=41.223.204.0-41.223.207.255
+/ip/firewall/address-list/add list= address=41.223.216.0-41.223.219.255
+/ip/firewall/address-list/add list= address=154.73.48.0-154.73.51.255
+/ip/firewall/address-list/add list= address=169.239.20.0-169.239.23.255
+/ip/firewall/address-list/add list= address=41.79.60.0-41.79.63.255
+/ip/firewall/address-list/add list= address=197.234.240.0-197.234.243.255
+/ip/firewall/address-list/add list= address=196.223.43.0-196.223.43.255
+/ip/firewall/address-list/add list= address=196.13.208.0-196.13.208.255
+/ip/firewall/address-list/add list= address=196.49.11.0-196.49.11.255
+# updated 2024年 7月 8日 星期一 12时32分48秒 CST

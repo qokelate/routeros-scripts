@@ -1,0 +1,8 @@
+
+/ip/firewall/address-list/add list= address=190.102.0.0-190.102.31.255
+/ip/firewall/address-list/add list= address=200.7.32.0-200.7.63.255
+/ip/firewall/address-list/add list= address=201.220.0.0-201.220.15.255
+/ip/firewall/address-list/add list= address=131.161.84.0-131.161.87.255
+/ip/firewall/address-list/add list= address=190.124.216.0-190.124.219.255
+/ip/firewall/address-list/add list= address=200.0.22.0-200.0.23.255
+# updated 2024年 7月 8日 星期一 12时33分46秒 CST
