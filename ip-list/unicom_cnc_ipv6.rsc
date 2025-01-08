@@ -1,0 +1,27 @@
+
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2001:e18::/32
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2001:e88::/32
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2001:f88::/32
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2400:32c0::/32
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2400:7f80::/32
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2400:eda0::/32
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2401:7700::/32
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2401:9600::/32
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2401:da00::/32
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2402:2d00::/32
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2402:5bc0::/32
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2403:1dc0::/32
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2403:4280::/32
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2403:6d80::/32
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2403:c480::/32
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2403:ed00::/32
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2404:3480::/32
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2404:3700::/32
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2404:7d00::/32
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2404:c5c0::/32
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2405:24c0::/32
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2405:d280::/32
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2406:aac0::/32
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2408:8000::/22
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2408:8400::/22
+/ip/firewall/address-list/add list=unicom_cnc_ipv6 address=2408:8800::/21
