@@ -1,7 +1,7 @@
 /ip/firewall/address-list/remove [find list=github]
 
 
-
+# fetch from https://api.github.com/meta
 /ip/firewall/address-list/add list=github address="104.208.0.0/19"
 /ip/firewall/address-list/add list=github address="104.208.128.0/17"
 /ip/firewall/address-list/add list=github address="104.208.32.0/20"
